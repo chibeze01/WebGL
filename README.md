@@ -1,5 +1,5 @@
 # WebGL User Guide
-
+Read the full report [here](./CM20219_WebGl_report(1).pdf)
 ## Setting up the Web Server
 
 To create the web server, follow these steps:
