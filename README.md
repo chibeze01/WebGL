@@ -1,70 +1,65 @@
-# WebGL
--------------------- creating the web server ----------------
-1. Install PYTHON from: https://www.microsoft.com/en-gb/p/python-37/9nj46sx7x90p
-2. Open a command line (or terminal on Linux or macOS) in the directory where you have
-the coursework. (On Windows, you can press shift + right click, and then select “Open
-command window here”).
-3. Start a simple webserver with Python. On a university or on windows computer,
-you can type: “python -m http.server PORT”, where PORT is a Number
-You will tell the system at which port the server will be listening (e.g. 32007).
-4. In your web browser, navigate to “http://localhost:PORT”, where “PORT” is the
-number you used in Step 3.
--------------------------------------------------------------
+# WebGL User Guide
 
------------------------- keybindings ------------------------
+## Setting up the Web Server
 
-start and stop rotate about y-axis | y |
-start and stop rotate about x-axis | x |
-start and stop rotate about z-axis | z |
+To create the web server, follow these steps:
 
-pan up	  | up arrow key   |
-pan down  | down arrow key |
-pan right | right arrow key|
-pan left  | left arrow key |
+1. **Install Python**: Download Python 3.7 from the [official Microsoft store link](https://www.microsoft.com/en-gb/p/python-37/9nj46sx7x90p).
 
-dolly forwards | + |
-dolly backwards| - |
+2. **Access Terminal or Command Line**: Open a command line or terminal in the directory where you have stored your coursework. If you're on Windows, you can do this by pressing shift + right click within the directory, and then select “Open command window here”.
 
-reset | r |
+3. **Start a Web Server with Python**: Initiate a simple web server using Python by typing: “python -m http.server PORT” in your terminal or command line. Replace PORT with the number of your choice. This number indicates the port at which the server will listen (e.g., 32007).
 
-face mode     | f |
-edge mode     | e |
-vertices mode | v |
- 
-bunny face mode     | i |
-bunny edge mode     | o |
-bunny vertices mode | p |
+4. **Access the Server via Browser**: Open your web browser and navigate to “http://localhost:PORT”, where “PORT” is the number you used in Step 3.
 
-orbit the mouse (arc ball mode) | any mouse push button |
+## Keybindings
 
-remove grid | g |
+Here is a summary of the keybindings for various actions:
 
-camera & light orbit animation | q |
+**Rotation Controls:**
 
-something cool & stop and start objects rotation about the head  | space-bar |
+- Y-axis rotation: `y`
+- X-axis rotation: `x`
+- Z-axis rotation: `z`
 
-camera in head position in something cool | h |
+**Panning Controls:**
 
-camera in minecraft box in something cool | m |
+- Pan up: `up arrow key`
+- Pan down: `down arrow key`
+- Pan right: `right arrow key`
+- Pan left: `left arrow key`
 
--------------------------------------------------------------
+**Dolly Controls:**
 
--------------------------- tips -----------------------------
-I have used alot of objects for the something cool requirement, so i experienced 
-some loading lag when debuging. Sometime for an unknown reason an error 
-occures during loading, just reload the webpage.
+- Dolly forwards: `+`
+- Dolly backwards: `-`
 
-In the something cool scene, If you want to see an illusion you should press h
-and orbit the camera behind the head, it will seem that the head is still looking
-at you. and the shadows from this position look really cool as well.
+**Other Controls:**
 
--------------------------------------------------------------
+- Reset: `r`
+- Face mode: `f`
+- Edge mode: `e`
+- Vertices mode: `v`
+- Bunny face mode: `i`
+- Bunny edge mode: `o`
+- Bunny vertices mode: `p`
+- Orbit the mouse (arc ball mode): `any mouse push button`
+- Remove grid: `g`
+- Camera & light orbit animation: `q`
+- Cool feature & rotation stop/start: `space-bar`
+- Camera in head position in cool feature: `h`
+- Camera in Minecraft box in cool feature: `m`
 
--------------------------system requirements ----------------
-This will work for the majority of morden systems.
-works well with opera, edge and chrome.
-it works for me and my system specifications are:
-Processor	AMD A10-8700P Radeon R6, 10 Compute Cores 4C+6G, 1800 Mhz, 2 Core(s), 4 Logical Processor(s)
-OS Name	Microsoft Windows 10 Home
-Total Physical Memory	7.47 GB
--------------------------------------------------------------
+## Tips and Tricks
+
+When using the 'cool feature' that involves a lot of objects, you may experience some loading lag during debugging. Occasionally, you may encounter an error during loading – simply refresh the webpage to resolve this.
+
+In the 'cool feature' scene, press `h` to position the camera behind the head for an illusion that the head is still looking at you. The shadows from this position also create a visually stunning effect.
+
+## System Requirements
+
+This WebGL application is compatible with most modern systems and performs optimally on Opera, Edge, and Chrome browsers. Here are the specs of a system where the application was successfully run:
+
+- Processor: AMD A10-8700P Radeon R6, 10 Compute Cores 4C+6G, 1800 Mhz, 2 Core(s), 4 Logical Processor(s)
+- OS: Microsoft Windows 10 Home
+- Physical Memory: 7.47 GB
